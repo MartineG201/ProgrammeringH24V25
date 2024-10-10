@@ -4,7 +4,7 @@
 - Printe tekst og tall til konsoll
 - Skrive et enkelt program
 
-## Gå inn på python.com i en ny fane
+#### Gå inn på online-python.com i en ny fane
 
 ## `print()` - tutorial del 1:
 
