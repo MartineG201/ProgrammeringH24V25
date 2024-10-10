@@ -26,6 +26,7 @@ print('Du kan printe flere ting, med komma mellom:', 5, 6)
 print('Desimaltall må skrives med punktum i Python:', 3.14)
 print('Hvis du bruker komma, tolkes det som to adskilte tall:', 3, 14)
 print('Komma inni en tekst kommer ut på skjermen:', ',', ',', 'komma', 'mellom', 'tekster gjør ikke det.')
+```
 
 Som forklaringen sier, er det to **alternative tegn** som kan brukes for å omslutte tekststrenger i Python:
 
@@ -41,7 +42,16 @@ Lag et program som gir følgende utskrift til skjermen:
 
 ```python
 Jeg digger programmering!
-
+```
 ### b)
+Lag et program som gir følgende utskrift til skjermen:
+```python
+Norge
+ 
+ 
+Areal (kv.km): 385180
+ 
+Folketall (mill.): 5.3
+```
 
 
