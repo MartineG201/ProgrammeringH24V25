@@ -69,7 +69,7 @@ for tekststrenger
 som skal gå over flere linjer.""")
 ```
 
-### c) Lag et program som skriver ut på skjermen teksten: "Jeg elsker ITGK" ropte studenten da 1c funket.
+### c) Lag et program som skriver ut på skjermen teksten: "Jeg elsker programmering" ropte studenten da 1c funket.
 (Hermetegnene rundt teksten skal være med i det som kommer ut på skjermen.) 
 
 ### d) Lag et program som skriver ut på skjermen teksten vist under. (Hint: For å slippe å skrive så mye, kopier teksten inn i boksen under, så trenger du bare selv å skrive print, parenteser og passende fnutter rundt teksten.
