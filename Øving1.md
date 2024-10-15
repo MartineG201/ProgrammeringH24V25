@@ -85,4 +85,28 @@ Diskusjonstemaet deres var noe uventet.
 - Nei, engelsk komigruppe. Begynte i '69
 - Wow! Var'e fremdeles dinosaurer da?
 ```
+### Kommentarer i Python - tutorial del 3:
 
+ 
+Nyttig info før oppgave e Kommentarer er en annen nyttig ting når vi skriver kode. Det brukes mest for din egen del, i tillegg til andre som skal tyde koden, ettersom det gjør koden mer oversiktlig. Det er blant annet veldig nyttig viss du eller andre skal se gjennom kode i etterkant. Kommentarer ignoreres av programmet når koden kjører, så hva du skriver i en kommentar påvirker ikke koden. Kommentarer lages ved å sette en hashtag(#) foran det du ønsker å skrive. Prøver du å kjøre koden under vil du få en feil. 
+
+### e) **Prøv å rette opp koden!**
+
+```python
+#dette er en kommentar
+Dette er ikke fordi den mangler #
+```
+### f)
+Legg til to kommentarer i koden din fra b) hvor du forklarer hva som ble gjort i hver av oppgavene.  
+Legg også til kommentaren print('Hei") i en av deloppgavene. 
+Merk at dersom du hadde skrevet print('Hei") i koden ville ikke koden kjørt. Dette skyldes at det først blir brukt en enkel fnutt og deretter en dobbel fnutt. Så lenge dette er skrevet i en kommentar slik det ble gjort i e) vil det ikke påvirke koden og alt går fint.
+
+ ### g)
+ 
+ Koden i kodeblokken under kjører ikke pga. syntaksfeil i alle print-funksjonene. Din oppgave er å rette opp i feilene slik at koden kjører. 
+ ```python
+print("Heihei, jeg vil visst ikke kompilere jeg :(')
+print("Halla, så "bra" du ser ut i dag")
+print(Hei på deg)
+print "Er ikke dette gøy?")
+```
