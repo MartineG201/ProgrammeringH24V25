@@ -1,12 +1,12 @@
-#Øving 2 - Kalkulasjoner
-##Læringsmål:
+# Øving 2 - Kalkulasjoner
+## Læringsmål:
 -Basisferdigheter, sekvensiell programmering
 -Utføre enkle kalkulasjoner
 
 I denne oppgaven skal du lære hvordan du skriver matematiske uttrykk for å gjøre utregninger i Python.
 
 
-# Tutorial - Matteoperasjoner del 1: Vanlige operatorer, parenteser, presedens
+## Tutorial - Matteoperasjoner del 1: Vanlige operatorer, parenteser, presedens
 
 Det er mange likheter mellom Python og vanlig matematisk skrivemåte av aritmetiske uttrykk, men også noen forskjeller.
 
@@ -32,7 +32,7 @@ Tabellen under oppsummerer det mest grunnleggende:
 - (5 * 2) ** 3 blir 343, fordi * nå gjøres før **.
 - Hvis du skal "oversette" et matematisk uttrykk med parenteser til Python, bruk parenteser på samme sted også i Python-koden.
 
-## a) Korrekt programmering av aritmetiske utrykk
+### a) Korrekt programmering av aritmetiske utrykk
  Fyll inn riktig Python-kode i stedet for None på samme måte som vist i de tre øverste linjene,
  Kjør deretter programmet for å se at det virker (kjør gjerne hver gang du har fullført en ny linje, så du får testet en og en).
  
@@ -91,3 +91,33 @@ Koden under viser hvordan `//` og `%` kan brukes til slike beregninger. Prøv å
 print(215, "sekund blir", 215 // 60, "minutt og", 215 % 60, "sekund.")
 print(53, "dager blir", 53 // 7, "uker og", 53 % 7, "dager.")
 ```
+
+ Det fins også mange andre nyttige anvendelser av // og %, som vil vise seg etter hvert som vi kommer til mer avanserte problemer.
+
+### b) Bruk av heltallsdivisjon og modulo
+Erstatt ordet None i print-setningene i linje 2, 3 og 4 med uttrykk med // og % på tilsvarende måte  som i linje 1, så påstandene blir riktige.
+
+```{python}
+print(355, "minutt blir", 355 // 60, "timer og", 355 % 60, "minutt.")
+print(403, "sekund blir", None, "minutt og", None, "sekund.")
+print(67, "dager blir", None, "uker og", None, "dager.")
+print(100, "timer blir", None, "døgn og", None, "timer.")```
+
+ Riktig utskrift hvis du har fått det til, skal bli:
+```python
+355 minutt blir 5 timer og 55 minutt.  
+403 sekund blir 6 minutt og 43 sekund.  
+67 dager blir 9 uker og 4 dager.  
+100 timer blir 4 døgn og 4 timer.
+```
+
+### c)
+
+
+### d) 
+
+
+
+### f) round() og abs()
+
+skriv dette inn. hva tror du round og abs gjør?
