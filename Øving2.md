@@ -22,6 +22,10 @@ Tabellen under oppsummerer det mest grunnleggende:
 | a<sup>b</sup>     | a ** b           | Dobbel stjerne for potens. De to stjernene må stå kloss inntil hverandre.                                                                                 |
 | [(a + b) ·  c - d] | ((a + b) * c - d)| I matematisk notasjon brukes av og til ulike parentes-symboler () [] {} hvis det er uttrykk med flere nivåer av parenteser nøstet inn i hverandre. I Python må vanlig parentes () brukes for **alle** nivåer. [] og {} har en annen betydning. |
 
+### a) hva er forskjellen på "2+2 =4" og 2+2
+
+
+
 **Presedens** mellom operatorer fungerer som i matematikken.
 - Multiplikasjon og divisjon har høyere presedens enn addisjon og subtraksjon.
 - 3 + 2 * 5 blir 13, fordi * gjøres før +.
@@ -32,7 +36,7 @@ Tabellen under oppsummerer det mest grunnleggende:
 - (5 * 2) ** 3 blir 343, fordi * nå gjøres før **.
 - Hvis du skal "oversette" et matematisk uttrykk med parenteser til Python, bruk parenteser på samme sted også i Python-koden.
 
-### a) Korrekt programmering av aritmetiske utrykk
+### b) Korrekt programmering av aritmetiske utrykk
  Fyll inn riktig Python-kode i stedet for None på samme måte som vist i de tre øverste linjene,
  Kjør deretter programmet for å se at det virker (kjør gjerne hver gang du har fullført en ny linje, så du får testet en og en).
  
@@ -94,7 +98,7 @@ print(53, "dager blir", 53 // 7, "uker og", 53 % 7, "dager.")
 
  Det fins også mange andre nyttige anvendelser av // og %, som vil vise seg etter hvert som vi kommer til mer avanserte problemer.
 
-### b) Bruk av heltallsdivisjon og modulo
+### c) Bruk av heltallsdivisjon og modulo
 Erstatt ordet None i print-setningene i linje 2, 3 og 4 med uttrykk med // og % på tilsvarende måte  som i linje 1, så påstandene blir riktige.
 
 ```{python}
@@ -111,7 +115,7 @@ print(100, "timer blir", None, "døgn og", None, "timer.")```
 100 timer blir 4 døgn og 4 timer.
 ```
 
-### c)
+### d)
 
 
 ### d) 
