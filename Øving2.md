@@ -1,7 +1,7 @@
 # Øving 2 - Kalkulasjoner
 ## Læringsmål:
--Basisferdigheter, sekvensiell programmering
--Utføre enkle kalkulasjoner
+- Basisferdigheter, sekvensiell programmering
+- Utføre enkle kalkulasjoner
 
 I denne oppgaven skal du lære hvordan du skriver matematiske uttrykk for å gjøre utregninger i Python.
 
