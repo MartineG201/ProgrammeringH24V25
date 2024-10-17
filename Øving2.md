@@ -143,7 +143,7 @@ Ved bruk av Python, løs disse matematikkoppgavene:
 Jockim skal se en film som varer 204 minutter. Skriv tiden på filmen i timer og minutter.
 
  III)
-Liban skal regne ut \frac{3}{5} ganget med \frac{17}{4}. Hva blir svaret?
+Liban skal regne ut $\frac{3}{5}$ ganget med $\frac{17}{4}$. Hva blir svaret?
 
  IV)
 Thea skal regne ut arealet av et kvadrat med sider på 3 meter, hva er arealet?
