@@ -121,10 +121,12 @@ Erstatt ordet None i print-setningene i linje 2, 3 og 4 med uttrykk med // og % 
 print(355, "minutt blir", 355 // 60, "timer og", 355 % 60, "minutt.")
 print(403, "sekund blir", None, "minutt og", None, "sekund.")
 print(67, "dager blir", None, "uker og", None, "dager.")
-print(100, "timer blir", None, "døgn og", None, "timer.")```
+print(100, "timer blir", None, "døgn og", None, "timer.")
+```
 
  Riktig utskrift hvis du har fått det til, skal bli:
-```python
+
+```{python}
 355 minutt blir 5 timer og 55 minutt.  
 403 sekund blir 6 minutt og 43 sekund.  
 67 dager blir 9 uker og 4 dager.  
@@ -132,8 +134,19 @@ print(100, "timer blir", None, "døgn og", None, "timer.")```
 ```
 
 ### e) Kombinasjon av matematikkoperasjoner
+Ved bruk av Python, løs disse matematikkoppgavene:
 
+ I)
+ Jens og de fem vennene hans skal dele 16 muffins mellom dem. Hvor mange hele muffins får dem hver? og hvor mange er da igjen som de må kutte opp for å dele likt?
 
+ II)
+Jockim skal se en film som varer 204 minutter. Skriv tiden på filmen i timer og minutter.
+
+ III)
+Liban skal regne ut \frac{3}{5} ganget med \frac{17}{4}. Hva blir svaret?
+
+ IV)
+Thea skal regne ut arealet av et kvadrat med sider på 3 meter, hva er arealet?
 
 ## Tutorial - Matteoperasjoner del 3: Innebygde funksjoner og konstanter 
 Python har en rekke innebygde funksjoner.En fullstendig liste over funksjoner i standardbiblioteket fins [her](https://docs.python.org/3/library/functions.html)
@@ -159,21 +172,26 @@ print(abs(-2.3))
 ```
 
 ### g)
-Endre koden under slik at du får riktige svar. Husk du må bruke funskjoner og matematikkoperasjoner til å svare på oppgaven. Pi er 3.14.
+Endre koden under slik at du får riktige svar. Husk du må bruke funksjoner og matematikkoperasjoner til å svare på oppgaven. Pi er 3.14. (Kanskje du må Google hvordan man regner ut areal og omkrets av en sirkel?)
 
 ```{python}
 print("|-8|, dvs. absoluttverdien til -8, er", None)
 print(2.544, "avrundet til helt tall er", None)
 print("Funksjonen int() derimot bare kutter vekk desimalene:", int(2.544) )
-print(2.544, "avrundet til to desimaler er", None)
-print("Kvadratroten til", 10, "er", None)
+print(2.544, "avrundet er", None)
 print("En sirkel med radius 7 har omkrets", None)
 print("En sirkel med radius 7 har areal", None)
 ```
 
-Hvis du har klart oppgaven skal du få dette svaret: 
+Hvis du har gjort det riktig, så skal du få dette når du kjører programmet: 
+
 ```{python}
-
-
+print("|-8|, dvs. absoluttverdien til -8, er", None)
+print(2.544, "avrundet til helt tall er", None)
+print("Funksjonen int() derimot bare kutter vekk desimalene:", int(2.544) )
+print(2.544, "avrundet er", None)
+print("En sirkel med radius 7 har omkrets", None)
+print("En sirkel med radius 7 har areal", None)
+```
 
 
