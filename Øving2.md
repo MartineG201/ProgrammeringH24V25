@@ -22,7 +22,22 @@ Tabellen under oppsummerer det mest grunnleggende:
 | a<sup>b</sup>     | a ** b           | Dobbel stjerne for potens. De to stjernene må stå kloss inntil hverandre.                                                                                 |
 | [(a + b) ·  c - d] | ((a + b) * c - d)| I matematisk notasjon brukes av og til ulike parentes-symboler () [] {} hvis det er uttrykk med flere nivåer av parenteser nøstet inn i hverandre. I Python må vanlig parentes () brukes for **alle** nivåer. [] og {} har en annen betydning. |
 
-### a) hva er forskjellen på "2+2 =4" og 2+2
+### a) "2+2" og 2+2
+
+Sett inn koden under i python.
+```{python}
+print(2+2)
+print("2+2")
+```
+
+Når python ser " eller ' kjenner den det igjen som tekst og ikke tall den skal regne ut. En tekst i programmering. Altså det som er inni "" eller '' kalles en string.
+Hvis vi vil printe ut tall og tekst på samme linje, må vi skrive de inni samme print()-funksjon *og* ha et komma mellom dem, slik du ser i koden under. 
+
+```{python}
+print("2 + 2 = ", 2+2)
+```
+Gjett, gjerne skriv ned for deg selv, hva tror du kommer til å skje?
+Sett inn koden over inn i python og kjør koden, for å se svaret. Gjettet du riktig?
 
 
 
@@ -89,6 +104,7 @@ Heltallsdivisjon og modulo har en rekke nyttige bruksområder i programmering.
 
 Ett eksempel er regning med enheter som aggregeres på andre måter enn det typiske 10, 100, 1000, slik som 60 sekund per minutt, 60 minutt per time, 24 timer per døgn, 7 døgn per uke.
 
+### c) Et eksempel på modulo og heltallsdivisjon
 Koden under viser hvordan `//` og `%` kan brukes til slike beregninger. Prøv å kjør den.
 
 ```python
@@ -96,9 +112,9 @@ print(215, "sekund blir", 215 // 60, "minutt og", 215 % 60, "sekund.")
 print(53, "dager blir", 53 // 7, "uker og", 53 % 7, "dager.")
 ```
 
- Det fins også mange andre nyttige anvendelser av // og %, som vil vise seg etter hvert som vi kommer til mer avanserte problemer.
+Det fins også mange andre nyttige anvendelser av // og %, som vil vise seg etter hvert som vi kommer til mer avanserte problemer.
 
-### c) Bruk av heltallsdivisjon og modulo
+### d) Bruk av heltallsdivisjon og modulo
 Erstatt ordet None i print-setningene i linje 2, 3 og 4 med uttrykk med // og % på tilsvarende måte  som i linje 1, så påstandene blir riktige.
 
 ```{python}
@@ -115,13 +131,49 @@ print(100, "timer blir", None, "døgn og", None, "timer.")```
 100 timer blir 4 døgn og 4 timer.
 ```
 
-### d)
+### e) Kombinasjon av matematikkoperasjoner
 
 
-### d) 
 
+## Tutorial - Matteoperasjoner del 3: Innebygde funksjoner og konstanter 
+Python har en rekke innebygde funksjoner.En fullstendig liste over funksjoner i standardbiblioteket fins [her](https://docs.python.org/3/library/functions.html)
+Finner du print()-funksjonen?
+Noen standardfunksjoner som du kommer til å bruke i dette faget er print(), input(), str(), int(), float(). Spesielt relatert til matematikk fins dessuten abs() for absoluttverdi og round() for avrunding i standardbiblioteket.
 
 
 ### f) round() og abs()
+Kodeblokken under bruker de sistnevnte funksjonene. Kan du gjette hva round()-funskjonen og abs()-funksjonen gjør?
 
-skriv dette inn. hva tror du round og abs gjør?
+```{python}
+print("Print-setninger hvor round()-funksjonen er brukt:")
+print(round(5))
+print(round(-5))
+print(round(2.5))
+print(round(-2.3))
+print()
+print("Print-setninger hvor abs()-funksjonen er brukt:")
+print(abs(5))
+print(abs(-5))
+print(abs(2.5))
+print(abs(-2.3))
+```
+
+### g)
+Endre koden under slik at du får riktige svar. Husk du må bruke funskjoner og matematikkoperasjoner til å svare på oppgaven. Pi er 3.14.
+
+```{python}
+print("|-8|, dvs. absoluttverdien til -8, er", None)
+print(2.544, "avrundet til helt tall er", None)
+print("Funksjonen int() derimot bare kutter vekk desimalene:", int(2.544) )
+print(2.544, "avrundet til to desimaler er", None)
+print("Kvadratroten til", 10, "er", None)
+print("En sirkel med radius 7 har omkrets", None)
+print("En sirkel med radius 7 har areal", None)
+```
+
+Hvis du har klart oppgaven skal du få dette svaret: 
+```{python}
+
+
+
+
