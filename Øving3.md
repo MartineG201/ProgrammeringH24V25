@@ -70,10 +70,10 @@ Uten variable støter vi fort på en rekke problemer fordi programmet vårt ikke
 - vi må be brukeren gi inn opplysninger på nytt som brukeren har gitt tidligere
 - vi må regne ut på nytt data vi allerede har regnet ut tidligere
 
-  Dette sløser tid og strøm og vil i mange tilfeller gjøre programmet fullstendig ubrukelig.
+Dette sløser tid og strøm og vil i mange tilfeller gjøre programmet fullstendig ubrukelig.
 
-  I det lille eksempelprogrammet i tutorial del 1 klarte vi oss uten noen variabel,
-  fordi navnet vi innhentet fra bruker kun ble benyttet én gang, og dette skjedde umiddelbart etter at det var tastet inn.
+I det lille eksempelprogrammet i tutorial del 1 klarte vi oss uten noen variabel,
+fordi navnet vi innhentet fra bruker kun ble benyttet én gang, og dette skjedde umiddelbart etter at det var tastet inn.
 
 ```{python}
   print(input("Hei, hva heter du? "), "- det var et fint navn.") 
