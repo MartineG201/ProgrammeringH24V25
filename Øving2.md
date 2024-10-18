@@ -186,12 +186,12 @@ print("En sirkel med radius 7 har areal", None)
 Hvis du har gjort det riktig, så skal du få dette når du kjører programmet: 
 
 ```{python}
-print("|-8|, dvs. absoluttverdien til -8, er", None)
-print(2.544, "avrundet til helt tall er", None)
-print("Funksjonen int() derimot bare kutter vekk desimalene:", int(2.544) )
-print(2.544, "avrundet er", None)
-print("En sirkel med radius 7 har omkrets", None)
-print("En sirkel med radius 7 har areal", None)
+print("|-8|, dvs. absoluttverdien til -8, er", 8)
+print(2.544, "avrundet til helt tall er", 3)
+print("Funksjonen int() derimot bare kutter vekk desimalene:", 2 )
+print(2.544, "avrundet er", 2)
+print("En sirkel med radius 7 har omkrets", 43.69)
+print("En sirkel med radius 7 har areal", 153.86)
 ```
 
 
