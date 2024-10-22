@@ -102,7 +102,7 @@ Tabellen under illustrerer hvordan disse operatorene virker:
 
 Heltallsdivisjon og modulo har en rekke nyttige bruksområder i programmering.
 
-### c.2) Et eksempel på modulo og heltallsdivisjon
+### c.1) Et eksempel på modulo og heltallsdivisjon
 Forstår du ikke helt hva modulo og heltallsdivisjon er? Lim inn koden under. Kjør koden og se på svarene du får. Ser du en sammenheng? 
 ```{python}
 print("a) heltallsdivisjon 22//3=: ", 22//3)
@@ -131,7 +131,7 @@ print("f) modulo: 10 % 2=", 10%2)
 ```
 
 
-**Svar/Forklaring:** Når man deler kan man få desimaltall. Deler man f.eks 20 på 4 får man et helt tall, nemlig 5. Men deler du 22 på 4 vil du få et desimaltall, fordi 22 er ikke i 4-gangen. Som du ser i koden over vil 21 //  også gi tallet deg tallet 4. 
+**Svar/Forklaring:** Når man deler kan man få desimaltall. Deler man f.eks 20 på 4 får man et helt tall, nemlig 5. Men deler du 22 på 4 vil du få et desimaltall, fordi 22 er ikke i 4-gangen. Som du ser i koden over vil 22 // 4  også gi tallet deg tallet 5, fordi når du deler 22 på fire vil du få 5 og en **rest**. Modulo er denne resten, altså er 22 % 4 lik 2 fordi når du har delt 22 epler på fire venner vil de alle få fem epler og så har du to i rest. 
 
 Ett eksempel er regning med enheter som aggregeres på andre måter enn det typiske 10, 100, 1000, slik som 60 sekund per minutt, 60 minutt per time, 24 timer per døgn, 7 døgn per uke.
 
