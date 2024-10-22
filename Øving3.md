@@ -90,14 +90,14 @@ Da må data huskes i variable. Anta at vi ønsker en bare litt mer avansert dial
 ```{pyhton}
 Hei, hva heter du? Nina  
 Nina - det var et fint navn.  
-Lykke til med ITGK, Nina!
+Lykke til med programmering, Nina!
 ```
 Her vil vi bruke det innleste navnet i to påfølgende print-setninger. Hvis vi prøver samme triks som tidligere med å sette input-setning direkte i print-setning, får vi koden:
 
 
 ```{pyhton}
 print(input("Hei, hva heter du? "), "- det var et fint navn.")
-print("Lykke til med ITGK,", input("Hei, hva heter du?")) 
+print("Lykke til med programmering,", input("Hei, hva heter du?")) 
 ```
 
 
@@ -107,7 +107,7 @@ Kjøring viser hva som er dumt med denne koden, nemlig at spørsmålet "Hei, hva
 Hei, hva heter du? Nina  
 Nina - det var et fint navn.  
 Hei, hva heter du? Nina  
-Lykke til med ITGK, Nina
+Lykke til med programmering, Nina
 ```
 
 
@@ -117,7 +117,7 @@ Kan vi løse det på en bedre måte? JA - med en variabel for å huske navnet. K
 ```{pyhton}
 navn = input("Hei, hva heter du?" )
 print(navn, "- det var et fint navn.")
-print("Lykke til med ITGK,", navn)
+print("Lykke til med programmering,", navn)
 ```
 
  Dette programmet kan forklares som følger:
@@ -129,24 +129,39 @@ print("Lykke til med ITGK,", navn)
 - linje 3, variabelen navn brukes bakerst i print-setningen. Igjen uten fnutter; det er ikke ordet navn vi ønsker å skrive, men den tekststrengen som variabelen navn inneholder (f.eks. Nina)
 
 
-```{pyhton}
+Ved hjelp av variabelen som her ble kalt navn, unngår vi å stille samme spørsmål to ganger. Vi spør bare én gang, i starten av programmet, og husker da opplysningen brukeren gir oss ved å putte den inn i en variabel.
 
-```
+Videre i programmet kan vi benytte denne variabelen hver gang vi trenger navnet - enten det som her var bare to ganger, eller om det hadde vært flere.
 
+### b) huske input i varabel
 
-
-
-```{pyhton}
-
-```
-
-
+ Kjør koden under for å se hvordan den virker. Som du vil se, plager den brukeren med å gjenta begge spørsmålene to ganger.
+ 
+Forbedre koden ved å introdusere en variabel for navn og en annen variabel for favorittfag, slik at brukeren får hvert av spørsmålene bare en gang (dvs. spørres kun en gang om navn og kun en gang om favorittfag).Hvis du er i tvil om hvordan du skal angripe problemet, se lignende eksempel i tutorial like over.
 
 ```{pyhton}
-
+print("Hei,", input("Navn? "))
+print(input("Favorittfag? "), "- interessant!")
+print("Ha en fin dag,", input("Navn? "))
+print("- og lykke til med", input("Favorittfag? "))
 ```
 
+Hvis du får til å bruke de to variablene som tenkt, skal kjøringen av det forbedrede programmet se slik ut (men også funke om brukeren skriver inn noe annet enn Ada på spørsmålet Navn? og noe annet enn Matematikk på Favorittfag?)
 
+
+```{pyhton}
+Navn? Ada  
+Hei, Ada  
+Favorittfag? Matematikk  
+Matematikk - interessant!  
+Ha en fin dag, Ada  
+- og lykke til med Matematikk
+```
+### c) Huske og skrive ut personalia
+Lag et program som spør brukeren om navn, adresse og alder. Husk å lagre denne informasjonen fordi til slutt skal du printe ut en setning som sier " Hei (navn), som er (alder) år, håper du bor fint i (adressen)" og her hvor det står navn, alder og adressen skal det stå navnet, alderen og adressen til brukeren. 
+
+
+### d) Variabler kan være tall som vi kan regne med
 
 ```{pyhton}
 
