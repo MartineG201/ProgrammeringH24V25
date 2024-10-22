@@ -102,9 +102,40 @@ Tabellen under illustrerer hvordan disse operatorene virker:
 
 Heltallsdivisjon og modulo har en rekke nyttige bruksområder i programmering.
 
+### c.2) Et eksempel på modulo og heltallsdivisjon
+Forstår du ikke helt hva modulo og heltallsdivisjon er? Lim inn koden under. Kjør koden og se på svarene du får. Ser du en sammenheng? 
+```{python}
+print("a) heltallsdivisjon 22//3=: ", 22//3)
+print("b) modulo: 22 % 3=", 22%3) 
+print()
+print("c) heltallsdivisjon 22//5=: ", 22//5)
+print("d) modulo: 22 % 5=", 22%5)
+print()
+print("e) heltallsdivisjon 100//10=: ", 100//10)
+print("f) modulo: 100 % 10=", 100%10)
+```
+
+
+
+Forstår du nå hva modulo og heltallsdivisjon er? Forklar med egne ord og test deg selv ved å si hva som skal komme opp når du kjører denne koden:
+
+```{python}
+print("a) heltallsdivisjon 22//4=: ", 22//4)
+print("b) modulo: 22 % 4=", 22%4) 
+print()
+print("c) heltallsdivisjon 55//7=: ", 55//7)
+print("d) modulo: 55 % 7=", 55%7)
+print()
+print("e) heltallsdivisjon 10//2=: ", 10//2)
+print("f) modulo: 10 % 2=", 10%2)
+```
+
+
+**Svar/Forklaring:** Når man deler kan man få desimaltall. Deler man f.eks 20 på 4 får man et helt tall, nemlig 5. Men deler du 22 på 4 vil du få et desimaltall, fordi 22 er ikke i 4-gangen. Som du ser i koden over vil 21 //  også gi tallet deg tallet 4. 
+
 Ett eksempel er regning med enheter som aggregeres på andre måter enn det typiske 10, 100, 1000, slik som 60 sekund per minutt, 60 minutt per time, 24 timer per døgn, 7 døgn per uke.
 
-### c) Et eksempel på modulo og heltallsdivisjon
+### c.2) Et eksempel på modulo og heltallsdivisjon
 Koden under viser hvordan `//` og `%` kan brukes til slike beregninger. Prøv å kjør den.
 
 ```python
@@ -193,5 +224,7 @@ print(2.455, "avrundet er", 2)
 print("En sirkel med radius 7 har omkrets", 43.69)
 print("En sirkel med radius 7 har areal", 153.86)
 ```
+```{python}
 
+```
 
