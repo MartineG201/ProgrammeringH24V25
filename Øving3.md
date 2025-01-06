@@ -277,6 +277,39 @@ III) Gjør slik at brukeren kan skrive inn hvor mange som deltok på middagen, o
  Hint: For at man skal bruke input i beregninger må den gjøres om til en int.
 
 
+## Tutorial 5 - Debugging
+Som dere vet er Pyhon veldig sensetiv på at du skriver nøyaktig riktig syntax for at koden skal kjøre. Men vi er mennesker og kan lett skrive feil. En feil i koden vår kalles en "Bug" og å rette opp feil i koden vår kalles å "debugge". Det er det dere skal gjøre i neste oppgave. 
+
+### h) debug
+Rett alle syntaksfeilene i koden under slik at koden kjører uten problemer. Hver av syntaksfeilene her kan rettes ved å fjerne, legge til eller endre ett enkelt tegn, dvs. det er ikke nødvendig å gjøre større endringer i koden. Ved å kjøre programmet (velg ”Run” i menyen) og se på feilmeldinger vil du få hint om hvor hver enkelt syntaksfeil befinner seg.
+
+```{pyhton}
+r = 5
+print("Vi har en sirkel med radius" + r)
+omkrets = 2 * 3.14 * r
+print("Omkretsen er", omkrets))
+areal = 3.14 * radius * * 2
+print("Arealet er", areal
+h = 8
+volum = aral * h
+Print("Sylinder med høyde", h, ": Volumet er, volum)
+
+```
+Bonus: Får du at: Omkretsen er 31.400000000000002 ? Kan du gjøre dette bedre?
+
+hint: round()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
