@@ -164,7 +164,10 @@ Lag et program som spør brukeren om navn, adresse og alder. Husk å lagre denne
 ### d) Variabler kan være tall som vi kan regne med
 
 ```{pyhton}
-
+print("Har en sirkel med radius", None, "som er grunnflate i en sylinder med høyde", None)
+print("Omkrets av sirkelen:", None) 
+print("Areal av sirkelen:", None)
+print("Areal av sylinderen:", None)
 ```
 
 
