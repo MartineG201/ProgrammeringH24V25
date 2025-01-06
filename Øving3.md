@@ -264,8 +264,14 @@ _Studentrabatt: 20%_
 _Tips: 8%_
 
 (Oppgaven er delt opp i trinn for å gjøre det lettere å gjennomføre)
+
+
 I) Lag et program som lagrer verdiene fra regningen i variabler. Variablene skal altså være Pizza, Studentrabatt og Tips.
+
+
 II) Lag en variabel totalt som er lik den totale summen av middagen
+
+
 III) Gjør slik at brukeren kan skrive inn hvor mange som deltok på middagen, og print ut hvor mye hver person må betale.
 
  Hint: For at man skal bruke input i beregninger må den gjøres om til en int.
