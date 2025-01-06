@@ -183,13 +183,15 @@ str() - konverterer til tekststreng
 Koden under feiler fordi vi har glemt å konvertere. Kjør den og se hva som skjer.
 
 ```{pyhton}
-
+alder = input("Hvor gammel er du?")
+alder_mor = input("Hvor gammel er din mor?")
+sum_alder = alder + alder_mor
+print("Gratulerer, til sammen er dere", sum_alder, "år!")
 ```
 
+Oppgaven din er å endre koden slik at den gir den faktiske summen av aldren til mor og deg. 
 
-```{pyhton}
 
-```
 ### e) Variabler kan være tall som vi kan regne med
 Lag et program som tar inn informasjon om høyde og radiusen til en sylinder og regner ut omkrets av sirkelen, areal av sirkelen og areal av sylinderen. 
 
