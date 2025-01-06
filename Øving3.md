@@ -161,7 +161,7 @@ Ha en fin dag, Ada
 Lag et program som spør brukeren om navn, adresse og alder. Husk å lagre denne informasjonen fordi til slutt skal du printe ut en setning som sier " Hei (navn), som er (alder) år, håper du bor fint i (adressen)" og her hvor det står navn, alder og adressen skal det stå navnet, alderen og adressen til brukeren. 
 
 
-##Tutorial del 3: Konvertering mellom datatyper
+## Tutorial del 3: Konvertering mellom datatyper
 Vi kan ha ulike typer data, som tekststrenger (f.eks. "Python"), heltall (f.eks. 42) og  flyttall (f.eks. 9.80).
 Ofte kommer vi i situasjoner hvor vi har data av en viss type, men vi trenger samme data bare med en annen type. Da må vi konvertere dataene. Noen vanlige konverteringsfunksjoner:
 
