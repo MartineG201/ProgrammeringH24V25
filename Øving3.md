@@ -161,7 +161,37 @@ Ha en fin dag, Ada
 Lag et program som spør brukeren om navn, adresse og alder. Husk å lagre denne informasjonen fordi til slutt skal du printe ut en setning som sier " Hei (navn), som er (alder) år, håper du bor fint i (adressen)" og her hvor det står navn, alder og adressen skal det stå navnet, alderen og adressen til brukeren. 
 
 
-### d) Variabler kan være tall som vi kan regne med
+##Tutorial del 3: Konvertering mellom datatyper
+Vi kan ha ulike typer data, som tekststrenger (f.eks. "Python"), heltall (f.eks. 42) og  flyttall (f.eks. 9.80).
+Ofte kommer vi i situasjoner hvor vi har data av en viss type, men vi trenger samme data bare med en annen type. Da må vi konvertere dataene. Noen vanlige konverteringsfunksjoner:
+
+int() - konverterer til heltall.
+- int('423') gir 423 (dvs. tekststrengen blir konvertert til et tall).Virker kun hvis tekststrengen faktisk inneholder et heltall.
+- int(5.69) gir 5 (dvs. for flyttall blir desimaldelen fjernet)
+
+float() - konverterer til flyttall
+- float('5.69') gir 5.69
+- (tekststreng konvertert til tall)float('5') gir 5.0, dvs. float() virker på tekststrenger enten de inneholder flyttall eller heltall (men ikke på strenger som er noe annet enn tall)
+- float(5) gir 5.0
+- 
+str() - konverterer til tekststreng
+
+- str(42) gir '42'
+- str(5.69) gir '5.69'
+
+### d)
+Koden under feiler fordi vi har glemt å konvertere. Kjør den og se hva som skjer.
+
+```{pyhton}
+
+```
+
+
+```{pyhton}
+
+```
+### e) Variabler kan være tall som vi kan regne med
+Lag et program som tar inn informasjon om høyde og radiusen til en sylinder og regner ut omkrets av sirkelen, areal av sirkelen og areal av sylinderen. 
 
 ```{pyhton}
 print("Har en sirkel med radius", None, "som er grunnflate i en sylinder med høyde", None)
@@ -169,17 +199,57 @@ print("Omkrets av sirkelen:", None)
 print("Areal av sirkelen:", None)
 print("Areal av sylinderen:", None)
 ```
+## Tutorial del 4: Navngiving av variable
+
+En variabel er et navn som representerer en verdi som lagres i datamaskinens minne. Den vanligste måten å opprette en variabel på er ved en tilordningssetning:
+
+variable = expression
+
+dette tilfellet er variable navnet til variabelen, mens expression er verdien. Noen regler for slike tilordningssetninger:
+- variabelen som opprettes skal alltid stå på venstre side av uttrykket, og venstre side skal kun inneholde denne variabelen, ikke noe annet
+- høyde side kan alt fra en enkelt verdi (f.eks. et tall) eller en enkelt variabel, til mer sammensatte uttrykk som må beregnes. Hvis høyre side inneholder variable, må dette være variable som allerede er opprettet tidligere i koden.
+- variabelnavnet må tilfredsstille følgende regler:ord som er reserverte ord i Python, f.eks. if, def, eller som er navn på standardfunksjoner som print, min, max, ... bør unngås som varibelnavn
+- variabelnavn må begynne med en bokstav eller tegnet _ (understrek)kan ellers inneholde bokstaver, tall og understrek, dvs. kan f.eks. ikke inneholde blanke tegn.
+- Python skiller mellom små og store bokstaver, så Areal og areal vil være to ulike variable.
+
+Det anbefales å lage variabelnavn som er intuitivt forståelige, f.eks. er areal et bedre navn enn x på en variabel som inneholder et areal. Sammensatte variabelnavn skrives typisk som pukkelord (eng.: camelCase) eller med understrek for å vise hvor ett ord slutter og det neste begynner, f.eks. startTime, pricePerLiter eller start_time, price_per_liter, siden direkte sammensetning uten noe som helst skille vil gi lange variabelnavn som blir vanskelige å lese.
+
+Kodeblokka under viser eksempler på variable som funker og ikke funker:
 
 
 
 ```{pyhton}
-
+# Eksempel på tilordningssetninger som funker
+pokemon_name = "Tyranitar"
+MaxCP = 3670
+antall = 3
+antall = antall + 1      # høyre side regnes ut som 3+1, så 4 blir ny verdi i variabelen antall
+resists_fighting = False
+level42 = "to be done"   # tall er OK i variabelnavn unntatt helt fremst
+  
+# Eksempel på tilordninger som IKKE funker
+1 = antall              # variabelen må stå på venstre side
+antall + 1 = antall     # og v.s. kan KUN inneholde et variabelnavn, ikke et større uttrykk
+10kamp = "gøy"          # variabel kan ikke begynne med tall, kun bokstav eller _
+antall = 3              # denne er OK, men se neste linje
+antall = Antall + 1     # Python skiller mellom store og små bokstaver, Antall vil være en annen
+                        # variabel og gir NameError her fordi den ikke er opprettet i en tidligere setning
+happy hour = 20         # navn kan ikke inneholde mellomrom, burde vært happy_hour eller happyHour
+alkohol% = 4.5          # % kan ikke brukes i variabelnavn (betyr modulo). Samme gjelder andre spesialtegn,
+                        # hold deg til vanlige bokstaver og tall
 ```
 
 
+### f)
+Prøv å kjør koden under. Som du vil se, funker den ikke pga. diverse feil med variabelnavn og tilordningssetninger. Fiks feilene så programmet kjører som det skal.
 
-
-
+```{pyhton}
+ 4navn = "Per"
+ideal alder = 42
+37 = kundensAlder
+differanse = ideal alder - kundensAlder
+print(4navn, "er", Differanse, "år unna idealalderen")
+```
 
 
 
