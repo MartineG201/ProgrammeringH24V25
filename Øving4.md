@@ -2,6 +2,13 @@
 **Læringsmål:
 Betingelser (if-setninger)**
 
+
+
+
+
+
+
+
 ## Generelt om if-setninger
 
 Studer koden under.
@@ -47,6 +54,7 @@ Her vil begge "print"-setningene om paraply kun bli utført hvis betingelsen er 
 **Altså: I Python viser innrykk hvor mange av de påfølgende setningene som styres av if-betingelsen.** Det er derfor viktig å være nøye med innrykkene og få alle programsetninger på korrekt indentasjonsnivå.
 
 ### a) Test koden ut selv og prøv med ulike tall over og under 0,2
+
 
 
 
