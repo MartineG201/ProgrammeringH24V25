@@ -256,6 +256,7 @@ print(4navn, "er", Differanse, "år unna idealalderen")
 
 ### g) Peppes pizza
 Du har nettopp spist middag på Peppes Pizza med noen venner, og mottar denne kvitteringen:
+
 _Pizza: 750kr
 Studentrabatt: 20%
 Tips: 8%_
