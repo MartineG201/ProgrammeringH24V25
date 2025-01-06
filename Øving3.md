@@ -256,9 +256,9 @@ print(4navn, "er", Differanse, "år unna idealalderen")
 
 ### g) Peppes pizza
 Du har nettopp spist middag på Peppes Pizza med noen venner, og mottar denne kvitteringen:
-Pizza: 750kr
+_Pizza: 750kr
 Studentrabatt: 20%
-Tips: 8%
+Tips: 8%_
 
 (Oppgaven er delt opp i trinn for å gjøre det lettere å gjennomføre)
 I) Lag et program som lagrer verdiene fra regningen i variabler. Variablene skal altså være Pizza, Studentrabatt og Tips.
