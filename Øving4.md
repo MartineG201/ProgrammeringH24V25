@@ -237,13 +237,13 @@ else:
  
 print("Du fikk",karakter)
 ```
-i) 
+## i) 
  Lag en utvidet versjon av programmet fra (e) som sier om personen kan stemme eller ikke, med følgende regler:
 - alder >= 18: Kan stemme både ved lokalvalg og Stortingsvalg
 - alder >= 16: Kan stemme ved lokalvalg, men ikke ved Stortingsvalg
 - ellers (alder < 16): Kan ikke stemme.
 
-j) 
+## j) 
  Du skal lage et program som sjekker hvilken billettpris en person skal betale ut ifra alderen til personen.
  
  Oversikt over alder og tilhørende billettpriser:
@@ -270,4 +270,3 @@ elif ...:
 else:
   ...
 ```
-
