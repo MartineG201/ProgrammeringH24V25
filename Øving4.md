@@ -248,15 +248,26 @@ j)
  
  Oversikt over alder og tilhørende billettpriser:
 
- 
+ | Aldersgruppe  | Bilettpriser |
+| ------------- | ------------- |
+| Uder 3  | Gratis  |
+| 3-11 år  | 30 kr |
+| 12-25 år  | 40 kr |
+| 26-66 år  | 80 kr  |
+| 67 +   | 50 kr  |
 
+
+Se under for tips
 ```{python}
-
+if alder < 3:
+  ...
+elif alder < 12:
+  ...
+elif ...:
+  ...
+elif ...:
+  ...
+else:
+  ...
 ```
 
-
-
-
-```{python}
-
-```
