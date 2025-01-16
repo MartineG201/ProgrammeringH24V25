@@ -250,7 +250,7 @@ j)
 
  | Aldersgruppe  | Bilettpriser |
 | ------------- | ------------- |
-| Uder 3  | Gratis  |
+| Under 3  | Gratis  |
 | 3-11 år  | 30 kr |
 | 12-25 år  | 40 kr |
 | 26-66 år  | 80 kr  |
