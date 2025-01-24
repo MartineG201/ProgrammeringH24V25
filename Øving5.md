@@ -8,7 +8,7 @@
  Eksempel på kjøring:
 
  
-'''{python}
+```{python}
 Hvor mange cookies ønsker du å bake? 24
 Antall cookies: 24 
 sukker(g): 200.0
@@ -16,29 +16,29 @@ smør(g): 160.0
 sjokolade(g): 250.0
 egg: 1.0
 hvetemel(g): 230.0
-'''
+```
 
 ### b) Lag notater i koden din
 Når vi lærer oss å kode eller har en veldig stor kode vi prøver å forstå, kan det være lurt å lage notater i python.
 
 Kjør kodene under hver for seg.
-'''{python}
+```{python}
 print("Denne teksten vil komme opp på skjermen")
 #Denne teksten kommer ikke til å bli printet. 
 #Det blir heller ikke gitt ut en feilkode.
-'''
+```
 
 
-'''{python}
+```{python}
 print("Denne teksten vil komme opp på skjermen")
 #Denne teksten kommer ikke til å bli printet.
 Men her, hvis du kjører koden, vil du få en feilmelding
-'''
+```
 
 
-'''{python}
+```{python}
 print("Denne teksten vil komme opp på skjermen") #Det er også mulig å skrive en kommentar ved siden av kodelinjene dine
-'''
+```
 
 Prøv å legg til noen kommentarer i de neste oppgavene du gjør. Det kan jo være lurt å ta screenshot av oppgaver og lagre de til senere, for å øve til neste prøve.
 
@@ -49,7 +49,7 @@ Prøv å legg til noen kommentarer i de neste oppgavene du gjør. Det kan jo væ
 Når man sammenligner to strenger i Python vil strengene sammenlignes karakter for karakter. F.eks. vil et program som sammenligner strengene "Ola" og "Ole" og sjekker om de er like, først sammenligne 'O' mot 'O', så 'l' mot 'l', og til slutt 'a' mot 'e'. Det er først ved sammenligningen av 'a' mot 'e' at det vil bli returnert False
 
 
-'''{python}
+```{python}
 a = "Ola"
 b = "Ole"
   
@@ -58,13 +58,13 @@ if a == b:
     print("Navnene er like")
 else:
     print("Navnene er IKKE like")
-'''
+```
 
 
 Om man derimot sammenligner navnene Markus og Marcus, vil testen av betingelsen returnere False når 'k' blir sammenlignet med 'c'. Det betyr at 'u'  mot 'u' og 's' mot 's' ikke blir sjekket.
 
 
-'''{python}
+```{python}
 a = "Markus"
 b = "Marcus"
   
@@ -73,23 +73,23 @@ if a == b:
     print("Navnene er like")
 else:
     print("Navnene er IKKE like")
-'''
+```
 
 ### c) 
 Prøv kodene ovenfor, men sett inn de ulike navnene under. Gjett før du kjører koden, hva som vil komme opp.
 
 
-'''{python}
+```{python}
 # a = "Ann", b = "Anne"
-'''
+```
 
-'''{python}
+```{python}
 # a = "Anders", b = "Anders"
-'''
+```
 
-'''{python}
+```{python}
 # a = "Anders", b = "anders"
-'''
+```
 
 Forstår du hvorfor du får de resultatene du gjør?
 
@@ -98,10 +98,10 @@ Forstår du hvorfor du får de resultatene du gjør?
 
 Se koden under. Hva er galt?
 
-'''{python}
+```{python}
 tall1=input("Gi meg et tall så skal jeg dobble det")
 dobbel=tall1*2
-'''
+```
 
 
 Gjør deg opp en mening og gjerne test koden før du ser svaret under.
@@ -112,20 +112,20 @@ Gjør deg opp en mening og gjerne test koden før du ser svaret under.
 svar: Når brukeren taster inn et tall blir det konvertert til en string og ikke et tall (float/int) slik at koden ikke skriver det dobbelte av tallet men tallet to ganger etter hverandre.
 
 Du kan løse probel
-'''{python}
+```{python}
 
-'''
+```
 
 ### d) 
 Bruk int() for å rette på koden.
 
 Løsningsforslag:Se eksempelet nedenfor.
 
-'''{python}
+```{python}
 tall1=input("Gi meg et tall så skal jeg dobble det")
 tall1=int(tall1)
 dobbel=tall1*2
-'''
+```
 
 # Intro om løkker
 
@@ -144,25 +144,24 @@ Du har kanskje erfaring med bruk av regneark? Der er det vanlig hvis man skal br
 Å kopiere samme kodesetning flere ganger er mulig i Python også, men bare praktisk hvis antall repetisjoner er lavt og kjent på forhånd.
 Eksemplet nedenfor viser et slikt tilfelle, hvor en kodelinje er gjentatt 3 ganger.
 
-'''{python}
+```{python}
 print("Hipp")
 print("Hipp")
 print("Hipp")
 print("Hurra!")
-'''
+```
  Samme utskrift kan oppnås med løkke:
 
-'''{python}
+```{python}
  for i in range(3):
     print("Hipp!")
 print("Hurra!")
-'''
+```
 
 
-'''{python}
+```{python}
 
-'''
-
+```
 
 
 '''{python}
