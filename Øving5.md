@@ -149,15 +149,6 @@ print("Hurra!")
 
  Det fins to typer løkker i Python, for-løkke som vist over, og while-løkke. Vi skal prøve å først lære oss if-løkker
 
- Prøv å kjøre koden under. Test med ulike tall.
-
-```{python}
-# hvis brukeren skal bestemme antall på forhånd:
-antall = int(input("Hvor mange Hipp?" ))
-for i in range(antall):
-    print("Hipp")
-print("Hurra!")
-```
 
 
 
@@ -206,7 +197,16 @@ Bruk en for-løkke til å tegne følgende mønster i terminalen:
 ```
 
 
+### f)
+Prøv å kjøre koden under. Test med ulike tall.
 
+```{python}
+# hvis brukeren skal bestemme antall på forhånd:
+antall = int(input("Hvor mange Hipp?" ))
+for i in range(antall):
+    print("Hipp")
+print("Hurra!")
+```
 
 
 
