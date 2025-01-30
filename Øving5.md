@@ -111,21 +111,7 @@ Gjør deg opp en mening og gjerne test koden før du ser svaret under.
 
 svar: Når brukeren taster inn et tall blir det konvertert til en string og ikke et tall (float/int) slik at koden ikke skriver det dobbelte av tallet men tallet to ganger etter hverandre.
 
-Du kan løse probel
-```{python}
 
-```
-
-### d) 
-Bruk int() for å rette på koden.
-
-Løsningsforslag:Se eksempelet nedenfor.
-
-```{python}
-tall1=input("Gi meg et tall så skal jeg dobble det")
-tall1=int(tall1)
-dobbel=tall1*2
-```
 
 # Intro om løkker
 
@@ -157,34 +143,103 @@ print("Hurra!")
     print("Hipp!")
 print("Hurra!")
 ```
+ for <variabel> in range(3): gjør at påfølgende kodesetning(er) med innrykk blir repetert 3 ganger.
 
+ print("Hurra!") som ikke har innrykk, er ikke del av løkka, og vil derfor bare bli utført en gang, etter at løkka er ferdig.
+
+ Det fins to typer løkker i Python, for-løkke som vist over, og while-løkke. Vi skal prøve å først lære oss if-løkker
+
+ Prøv å kjøre koden under. Test med ulike tall.
 
 ```{python}
-
+# hvis brukeren skal bestemme antall på forhånd:
+antall = int(input("Hvor mange Hipp?" ))
+for i in range(antall):
+    print("Hipp")
+print("Hurra!")
 ```
 
 
-'''{python}
 
+
+### a)
+Skriv en for-løkke som skriver ut tallene fra 1 til 10 på skjermen.
+
+💡 Hint: Bruk range(start, slutt).
+
+
+### b) Bare partall!
+Skriv en for-løkke som skriver ut partallene fra 2 til 20.
+
+💡 Hint: Bruk range(start, slutt, steg)
+
+
+### c) Baklengs-telling
+Skriv ut tallene fra 10 til 1 i synkende rekkefølge.
+
+💡 Hint: range() kan også telle baklengs med et negativt steg!
+
+
+### d) Gangetabellen for 5
+Lag en løkke som skriver ut 5-gangen (fra 5 × 1 til 5 × 10).
+
+
+
+'''{python}
+5 × 1 = 5  
+5 × 2 = 10 
+...
 '''
 
 
 
-'''{python}
+### e)
+Stjernemønster
+Bruk en for-løkke til å tegne følgende mønster i terminalen:
 
+'''{python}
+*
+**
+***
+****
+*****
 '''
 
 
 
-'''{python}
 
+
+
+
+
+
+### )
+Kjør koden for å se hvordan den virker. Endre så koden slik at programmet først spør brukeren hvor mange repetisjoner som ønskes, og deretter utfører programmet med ønsket antall repetisjoner av løkka.
+
+'''{python}
+for i in range(3):
+    adj = input("Beskriv deg selv med et adjektiv? ")
+    print("Hah, du", adj + "!? Jeg er mye", adj + "ere!")
+print("Takk for nå!")
+'''
+
+eksempel på kjøring av koden:
+
+'''{python}
+Hvor mange adjektiv vil du gi? 2
+Beskriv deg selv med et adjektiv? snill
+Hah, du snill!? Jeg er mye snillere!
+Beskriv deg selv med et adjektiv? ond
+Hah, du ond!? Jeg er mye ondere!
+Takk for nå!
 '''
 
 
 
-'''{python}
 
-'''
+
+
+
 
 
 
