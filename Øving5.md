@@ -185,11 +185,11 @@ Lag en løkke som skriver ut 5-gangen (fra 5 × 1 til 5 × 10).
 
 
 
-'''{python}
+```{python}
 5 × 1 = 5  
 5 × 2 = 10 
 ...
-'''
+```
 
 
 
@@ -197,13 +197,13 @@ Lag en løkke som skriver ut 5-gangen (fra 5 × 1 til 5 × 10).
 Stjernemønster
 Bruk en for-løkke til å tegne følgende mønster i terminalen:
 
-'''{python}
+```{python}
 *
 **
 ***
 ****
 *****
-'''
+```
 
 
 
@@ -244,19 +244,25 @@ Takk for nå!
 
 
 
-'''{python}
+```{python}
 
-'''
+```
 
+```{python}
 
-
-
-'''{python}
-
-'''
+```
 
 
+```{python}
 
-'''{python}
+```
 
-'''
+```{python}
+
+```
+
+
+
+```{python}
+
+```
