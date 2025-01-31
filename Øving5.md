@@ -272,26 +272,26 @@ print("Hurra!")
 
 
 
-### )g For-løkker med tekst.
+### g) For-løkker med tekst.
 Kjør koden under for å se hvordan den virker. Endre så koden slik at programmet først spør brukeren hvor mange repetisjoner som ønskes, og deretter utfører programmet med ønsket antall repetisjoner av løkka.
 
-'''{python}
+```{python}
 for i in range(3):
     adj = input("Beskriv deg selv med et adjektiv? ")
     print("Hah, du", adj + "!? Jeg er mye", adj + "ere!")
 print("Takk for nå!")
-'''
+```
 
 eksempel på kjøring av koden:
 
-'''{python}
+```{python}
 Hvor mange adjektiv vil du gi? 2
 Beskriv deg selv med et adjektiv? snill
 Hah, du snill!? Jeg er mye snillere!
 Beskriv deg selv med et adjektiv? ond
 Hah, du ond!? Jeg er mye ondere!
 Takk for nå!
-'''
+```
 
 
 ### h) Summer tallene fra 1 til 100
