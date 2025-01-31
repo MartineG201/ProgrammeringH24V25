@@ -153,7 +153,7 @@ print("Hurra!")
 
 
 
-### a)
+### a) Tell til 10
 Skriv en for-løkke som skriver ut tallene fra 1 til 10 på skjermen.
 
 💡 Hint: Bruk range(start, slutt).
@@ -195,6 +195,61 @@ Bruk en for-løkke til å tegne følgende mønster i terminalen:
 ****
 *****
 ```
+
+## Fasit til Intro av løkker a- e
+
+## 1. Tell til 10
+Skriv en `for`-løkke som skriver ut tallene fra 1 til 10.
+
+```python
+for i in range(1, 11):
+    print(i)
+```
+
+---
+
+## 2. Bare partall!
+Skriv en `for`-løkke som skriver ut partallene fra 2 til 20.
+
+```python
+for i in range(2, 21, 2):
+    print(i)
+```
+
+---
+
+## 3. Baklengs-telling
+Skriv ut tallene fra 10 til 1 i synkende rekkefølge.
+
+```python
+for i in range(10, 0, -1):
+    print(i)
+```
+
+---
+
+## 4. Gangetabellen for 5
+Lag en løkke som skriver ut 5-gangen (fra 5 × 1 til 5 × 10).
+
+```python
+for i in range(1, 11):
+    print(f"5 × {i} = {5 * i}")
+```
+## 7. Stjernemønster
+Bruk en `for`-løkke til å tegne følgende mønster i terminalen:
+```
+*
+**
+***
+****
+*****
+```
+
+```python
+for i in range(1, 6):
+    print("*" * i)
+```
+
 
 
 ### f)
