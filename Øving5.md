@@ -198,7 +198,7 @@ Bruk en for-løkke til å tegne følgende mønster i terminalen:
 
 ## Fasit til Intro av løkker a- e
 
-## 1. Tell til 10
+### 1. Tell til 10
 Skriv en `for`-løkke som skriver ut tallene fra 1 til 10.
 
 ```python
@@ -208,7 +208,7 @@ for i in range(1, 11):
 
 ---
 
-## 2. Bare partall!
+### 2. Bare partall!
 Skriv en `for`-løkke som skriver ut partallene fra 2 til 20.
 
 ```python
@@ -218,7 +218,7 @@ for i in range(2, 21, 2):
 
 ---
 
-## 3. Baklengs-telling
+### 3. Baklengs-telling
 Skriv ut tallene fra 10 til 1 i synkende rekkefølge.
 
 ```python
@@ -228,14 +228,14 @@ for i in range(10, 0, -1):
 
 ---
 
-## 4. Gangetabellen for 5
+### 4. Gangetabellen for 5
 Lag en løkke som skriver ut 5-gangen (fra 5 × 1 til 5 × 10).
 
 ```python
 for i in range(1, 11):
     print(f"5 × {i} = {5 * i}")
 ```
-## 7. Stjernemønster
+### 7. Stjernemønster
 Bruk en `for`-løkke til å tegne følgende mønster i terminalen:
 ```
 *
@@ -253,8 +253,12 @@ for i in range(1, 6):
 
 
 ### f)
-Prøv å kjøre koden under. Test med ulike tall.
+Lag en kode som tar inn et antall fra brukeren om hvor mange "Hipp" før "hurra" koden skal skrive.
 
+
+
+
+#### fasit:
 ```{python}
 # hvis brukeren skal bestemme antall på forhånd:
 antall = int(input("Hvor mange Hipp?" ))
@@ -268,8 +272,8 @@ print("Hurra!")
 
 
 
-### )
-Kjør koden for å se hvordan den virker. Endre så koden slik at programmet først spør brukeren hvor mange repetisjoner som ønskes, og deretter utfører programmet med ønsket antall repetisjoner av løkka.
+### )g For-løkker med tekst.
+Kjør koden under for å se hvordan den virker. Endre så koden slik at programmet først spør brukeren hvor mange repetisjoner som ønskes, og deretter utfører programmet med ønsket antall repetisjoner av løkka.
 
 '''{python}
 for i in range(3):
@@ -290,34 +294,60 @@ Takk for nå!
 '''
 
 
+### h) Summer tallene fra 1 til 100
+Bruk en for-løkke til å summere alle tallene fra 1 til 100 og skriv ut summen.
+
+💡 Eksempel output:
+```{python}
+Summen av tallene fra 1 til 100 er: 5050 
+```
 
 
 
+### i) Tell bokstavene i et ord
+Be brukeren om å skrive inn et ord. Bruk en for-løkke til å telle og skrive ut hvor mange bokstaver det er i ordet.
 
-
-
-
-
+💡 Eksempel input:
 
 ```{python}
+Skriv inn et ord: Python
+Ordet 'Python' har 6 bokstaver.
+```
 
+
+## Fasit til oppgave h og i
+
+
+### h) Summer tallene fra 1 til 100
+Bruk en `for`-løkke til å summere alle tallene fra 1 til 100 og skriv ut summen.
+
+```python
+sum_tall = 0
+for i in range(1, 101):
+    sum_tall += i
+print(f"Summen av tallene fra 1 til 100 er: {sum_tall}")
+```
+
+Output:
+```
+Summen av tallene fra 1 til 100 er: 5050
+```
+
+---
+ 
+
+### i) Tell bokstavene i et ord
+Be brukeren om å skrive inn et ord. Bruk en `for`-løkke til å telle og skrive ut hvor mange bokstaver det er i ordet.
+
+```python
+ord = input("Skriv inn et ord: ")
+bokstav_count = 0
+for bokstav in ord:
+    bokstav_count += 1
+print(f"Ordet '{ord}' har {bokstav_count} bokstaver.")
 ```
 
 ```{python}
 
 ```
 
-
-```{python}
-
-```
-
-```{python}
-
-```
-
-
-
-```{python}
-
-```
