@@ -21,14 +21,14 @@ Skriv en for-løkke som summerer alle oddetall mellom 1 og 50 og skriver ut summ
 Tegn et trekantmønster
 Be elevene bruke for-løkker til å tegne dette mønsteret i terminalen:
 ```{python}
-    *
-   ***
-  *****
- *******
+*
+***
+*****
+*******
 *********
 ```
 
-✅ Hint: Bruk print(" " * mellomrom + "*" * stjerner) og range().
+✅ Hint: Bruk print("*" * ) og gang stjernene med et algebraisk uttrykk som gir deg riktig antall stjerner
 
 
 ### d) Regn ut fakultet
